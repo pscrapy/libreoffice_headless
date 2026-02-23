@@ -1,0 +1,7 @@
+services:
+  headless_test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./files:/data:z
